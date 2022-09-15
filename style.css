@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background: #080808 ;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Image.lnk);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 200px;
+    padding-top: 2px ;
+}
+nav ul li{
+    vertical-align: top;
+    text-align: center;
+    margin: 0px 10px;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    text-align: left;
+    padding-left: 0%;
+    list-style-position: outside;
+    list-style-type:none;
+  }
+  
+  .vertical-menu a {
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #449183; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  .header-text{
+    font-size: 20px;
+    margin-left: 25%;
+    text-align: left;
+    margin-top: -70px;
+  }
+  .header-text h1{
+    font-size: 60px; 
+  }
+  .header-text h1 span{
+    color: #449183 ;
+  }
+
+  /*   about page  */
+  #about{
+    padding: 80px 100px;
+    color: white;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 70%;
+    border-radius: 15px;
+    height: 90%;
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #449183;
+  }
+  h2{
+    font-size: 35px;
+    font-weight: 600 ;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .education{
+      margin: 10px 0;
+  }
+
+  /* resume page 8 */
+  #resume{
+    padding: 80px 100px;
+    color: white;
+  }
+
+  .image{
+    flex-basis: 35%;
+  }
+  .image img{
+    max-width: 100%;
+    height: auto;
+    object-position: center right;
+  }
+  
+  .resume-button{
+      flex-basis: 60%;
+      margin-left: auto;
+      font-size: 20px;
+      
+
+  }
+  
+
+  /* Style buttons */
+.btn {
+  background-color: #449183;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: auto;
+  text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: white;
+}
+/* contact */
+.contact-left{
+ 
+  margin-left: 100px;
+}
+
+.contact-right{
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+.contact-left p{
+  margin-top: 30px;
+  
+}
+
+.contact-left p i{
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social{
+  margin-top: 30px;
+}
+.social a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 50px;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social a:hover{
+     color: #449183;
+     transform: translateY(-5px);
+}
+
+.contact-right form{
+  width: 100%;
+  
+}
+form input, form textarea{
+  width: 70%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form submit{
+  padding: 14px 60px;
+  margin-top: 20px ;
+}
+
+.copyright{
+  background: #777;
+  text-align: center;
+  padding: 1%;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+
